@@ -1,10 +1,21 @@
 .menu{
- background-color:#008877; 
+ background-color:#008877;
+  font-family: "Sans-serif";
 }
 .menu  a{
   color:#FFFFFF;
   text-decoration:none;
 }
+.menu ul>li:first-child a{
+ float: right;
+  margin-right: 20px;
+  border:1px solid white;
+  border-radius:5px;
+  
+}
 .menu a:hover{
   text-decoration:underline;
+}
+.menu li{
+  display:inline;
 }
